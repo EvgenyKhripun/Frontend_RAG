@@ -6,7 +6,7 @@ import os
 
 # ============= КОНФИГУРАЦИЯ - БЕКЕНД НА SELECTEL =============
 # ⚠️ ВАЖНО! Укажите реальный IP вашего сервера Selectel!
-SELECTEL_IP = os.getenv("SELECTEL_IP", "95.163.255.123")  # ВСТАВЬТЕ ВАШ IP!
+SELECTEL_IP = os.getenv("SELECTEL_IP", "111.88.142.238")  # ВСТАВЬТЕ ВАШ IP!
 API_URL = f"http://{SELECTEL_IP}:8001"
 API_ASK = f"{API_URL}/ask"
 API_HEALTH = f"{API_URL}/health"
